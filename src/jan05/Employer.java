@@ -9,12 +9,12 @@ package jan05;
  *
  * @author md.woalinur
  */
-public class employer {
+public class Employer {
     private int id;
     private String name;
     private double capital;
 
-    public employer(int id, String name, double capital) {
+    public Employer(int id, String name, double capital) {
         this.id = id;
         this.name = name;
         this.capital = capital;

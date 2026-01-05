@@ -13,9 +13,9 @@ import java.util.*;
 public class MainClass {
     public static void main(String[] args) {
         
-        employer e1 = new employer(101,"OLI",15000.15);
-        employer e2 = new employer(102,"nur",12000.10);
-        employer e3 = new employer(103,"akon",18000.16);
+        Employer e1 = new Employer(101,"OLI",15000.15);
+        Employer e2 = new Employer(102,"nur",12000.10);
+        Employer e3 = new Employer(103,"akon",18000.16);
         System.out.println(e1.getId());
         
         Set s = new HashSet();
