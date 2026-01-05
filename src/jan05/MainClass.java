@@ -22,6 +22,7 @@ public class MainClass {
         s.add(e1);
         s.add(e2);
         s.add(e3);
+       
         for(Object o : s){
             System.out.println(o);
         }
