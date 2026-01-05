@@ -9,5 +9,13 @@
  * @author md.woalinur
  */
 public class TestClassPullPush {
+     void test (){
+        System.out.println("");
+         String t = "olinur";
     
+    }
+      public static void main(String[] args) {
+        
+    }
 }
+
