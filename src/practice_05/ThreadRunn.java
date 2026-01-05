@@ -9,7 +9,7 @@ package practice_05;
  *
  * @author HP
  */
-public class ThreadRunnable {
+public class ThreadRunn {
     public static void main(String[] args) {
         ImpThread Rn = new ImpThread() {
             
