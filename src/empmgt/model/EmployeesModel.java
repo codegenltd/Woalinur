@@ -9,7 +9,7 @@ package empmgt.model;
  *
  * @author md.woalinur
  */
-public class Employees {
+public class EmployeesModel {
     private int id;
     private String fname;
     private String lname;
@@ -18,6 +18,23 @@ public class Employees {
     private double salary;
     private int age;
     private String address;
+
+    public EmployeesModel(int id, String fname, String lname, String designation, String department, double salary, int age, String address) {
+        this.id = id;
+        this.fname = fname;
+        this.lname = lname;
+        this.designation = designation;
+        this.department = department;
+        this.salary = salary;
+        this.age = age;
+        this.address = address;
+    }
+
+    public EmployeesModel() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+    
 
     public int getId() {
         return id;
@@ -81,6 +98,10 @@ public class Employees {
 
     public void setAddress(String address) {
         this.address = address;
+    }
+
+    public EmployeesModel Insert(EmployeesModel e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }
