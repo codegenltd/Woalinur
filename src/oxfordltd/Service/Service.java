@@ -5,6 +5,7 @@
  */
 package oxfordltd.Service;
 
+import codegenltd.model.EmpList;
 import oxfordltd.dao.Dao;
 import oxfordltd.model.StudentsModel;
 
@@ -19,4 +20,8 @@ public class Service {
         
     return sto;
     };
+
+    public EmpList insert(EmpList e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }

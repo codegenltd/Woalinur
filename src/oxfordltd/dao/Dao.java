@@ -5,6 +5,7 @@
  */
 package oxfordltd.dao;
 
+import codegenltd.model.EmpList;
 import oxfordltd.model.StudentsModel;
 
 /**
@@ -15,4 +16,8 @@ public class Dao {
     public StudentsModel save (StudentsModel st){
     return st;
     };
+
+    public EmpList save(EmpList e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
 }
