@@ -194,7 +194,7 @@ public class EmployeeUI extends javax.swing.JFrame {
         String empAre = are.getText();
         String empAdd = address.getText();
         
-        Employees e = new Employees();
+        Employees e   = new Employees();
         
     }//GEN-LAST:event_btnSaveActionPerformed
 
