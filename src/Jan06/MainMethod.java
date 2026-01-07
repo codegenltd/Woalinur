@@ -13,9 +13,9 @@ import java.util.Map;
 public class MainMethod {
     public static void main(String[] args) {
       
-            Map t = new HashMap();
-        System.out.println(t.getId()+  t.getTrainessAddress());
-        
+//            Map t = new HashMap();
+//        System.out.println(t.getId()+  t.getTrainessAddress());
+//        
         
         
     }
