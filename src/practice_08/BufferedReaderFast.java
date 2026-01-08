@@ -3,25 +3,27 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practice_07;
-import java.io.FileOutputStream;
+package practice_08;
+import java.io.FileReader;
+import java.io.BufferedReader;
 import java.io.IOException;
 /**
  *
  * @author HP
  */
-public class FileOutPutStream {
+public class BufferedReaderFast {
     public static void main(String[] args) {
         try {
-           FileOutputStream ot = new FileOutputStream("E:\\io.test.java");
-           String i = "hello world";
-           ot.write(i.getBytes());
-            System.out.println("write successfully");
-           
+             String l;
+        BufferedReader bf = new BufferedReader(new FileReader("E:\\iotest.java"));
+        
+        while ( (l = bf.readLine()) !=null){
+            System.out.println(l);
+        };
+        bf.close();
         } catch (IOException e) {
-            System.out.println("erro");
+            System.out.println("error");
             e.printStackTrace();
         }
     }
-    
 }
