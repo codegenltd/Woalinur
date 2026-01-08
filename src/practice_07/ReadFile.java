@@ -16,7 +16,7 @@ import java.io.FileNotFoundException;
 public class ReadFile {
     public static void main(String[] args) {
         try {
-            File rd = new File("E:\\test_2.java");
+            File rd = new File("E:\\iotest.java");
             Scanner sc = new Scanner(rd);
             while(sc.hasNextLine()){
                 String data = sc.nextLine();
