@@ -13,12 +13,15 @@ import java.io.IOException;
 public class WriteFile {
     public static void main(String[] args) {
         try {
-            FileWriter fr = new FileWriter("E:\\test_2.java");
+            FileWriter fr = new FileWriter("F:\\iotest");
+            fr.write("write this msg normaly in file");
+            fr.write("write this msg normaly in file");
             fr.write("write this msg normaly in file");
             fr.close();
             System.out.println("write successfull");
         } catch (IOException e) {
             System.out.println("error occure");
+            e.printStackTrace();
         }
     }
 }

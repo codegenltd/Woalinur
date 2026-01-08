@@ -3,27 +3,30 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package practice_08;
-import java.io.FileReader;
-import java.io.BufferedReader;
+package io_08;
+import java.io.File;
 import java.io.IOException;
+
 /**
  *
- * @author HP
+ * @author md.woalinur
  */
-public class BufferedReaderFast {
+public class FileCre {
     public static void main(String[] args) {
         try {
-             
-        BufferedReader bf = new BufferedReader(new FileReader("E:\\iotest.java"));
-        String l;
-        while ( (l = bf.readLine()) !=null){
-            System.out.println(l);
-        };
-        bf.close();
+            File fle = new File("F:\\khairulvai.text");
+            if(fle.createNewFile()){
+                System.out.println("successful");
+            }else{
+                System.out.println("not create file");
+            };
+            
+            
         } catch (IOException e) {
             System.out.println("error");
             e.printStackTrace();
+            
+            
         }
     }
 }
