@@ -11,10 +11,8 @@ package Practice_11;
  */
 
 public class RecursionExample {
-    public 
+   
      
-    public static void main(String[] args) {
-        
-    }
+    
 }
 
