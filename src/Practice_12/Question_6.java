@@ -5,18 +5,30 @@
  */
 package Practice_12;
 
+import java.util.Locale;
+
 /**
  *
  * @author HP
  */
 public class Question_6 {
     public static void main(String[] args) {
-        int x = 10,y = 0;
-        if(x && y){
-           System.out.println("true");
-        } else{
-                System.out.println("false");
-                    };
+//int a = 10;
+//char ch = 'A';
+//boolean flag = true;
+//String name = "Java";
+//System.out.printf("x, %d");
+//
+//System.out.printf("Value: %d, Char: %c, Bool: %b, Name: %s", 
+//                   a, ch, flag, name);
+
+//        if(x && y){
+//           System.out.println("true");
+//        } else{
+//                System.out.println("false");
+//                    };
+        double i = 10e-2;
+        System.out.println(i);
         
     }
 }

@@ -7,6 +7,7 @@ package Practice_11;
 import java.util.*;
 import java.util.Hashtable;
 import java.util.Iterator;
+import java.util.*;
 /**
  *
  * @author HP
@@ -14,13 +15,13 @@ import java.util.Iterator;
 public class HashTablePractice {
     public static void main(String[] args) {
         Hashtable<Integer , String> ht = new Hashtable<Integer , String>();
-        ht.put(ht.get(it), "nur");
-        
-        Iterator<Integer> it = new Iterator();
-        while(it.hasNext()){
-        ht.keySet();
-            System.out.println(it.next());
-        }
-        
+        ht.put(10, "nur");
+//        
+//        Iterator<Integer> it  = ht.iterator();
+//        while(it.hasNext()){
+//        ht.keySet();
+//            System.out.println(it.next());
+//        }
+//        
     }
 }
