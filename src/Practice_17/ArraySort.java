@@ -16,19 +16,23 @@ public class ArraySort {
         for(int i = 0; i <arr.length; i++){
              int [] sArr = {2,5,4,1,3};
         for(i = 0; i<sArr.length; i++){
-            for(int j =0; j<sArr.length; j++){
-                if(sArr[i] > sArr[j])
+            for(int j =i+1; j<sArr.length; j++){
+                if(sArr[i] > sArr[j]){
+                    int temp = sArr[i];
             sArr [i] = sArr[j];
-            sArr[j] = sArr[i];
+            sArr[j] = temp;
+                }
             }
     }
-            int [] a = arr[i];
-        for(int j = 0; j<arr[i].length; j++){
-            System.out.print(arr[i][j] + "");
-        }
-        }
+           
+            for (int b :sArr ) {
+                for (int t : sArr) {
+                    System.out.print(t + " ");
+                }
+                System.out.println("");
+            }
         
-       
+        }
             
     }
 }
