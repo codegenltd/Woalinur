@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Practice_11;
-
+package Practice_12;
+import java.io.FileInputStream;
 /**
  *
  * @author md.woalinur
  */
-
-public class RecursionExample {
-     
+public class FilInputStreamPractice {
     public static void main(String[] args) {
-        
+       FileInputStream fl = new FileInputStream("");
     }
 }
-

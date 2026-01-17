@@ -10,13 +10,13 @@ package Practice_12;
  * @author HP
  */
 public class Question_6 {
-    public static void main(String[] args) {
-        int x = 10,y = 0;
-        if(x && y){
-           System.out.println("true");
-        } else{
-                System.out.println("false");
-                    };
-        
-    }
+//    public static void main(String[] args) {
+//        int x = 10,y = 0;
+//        if(x && y){
+//           System.out.println("true");
+//        } else{
+//                System.out.println("false");
+//                    };
+//        
+//    }
 }

@@ -12,15 +12,15 @@ import java.util.Iterator;
  * @author HP
  */
 public class HashTablePractice {
-    public static void main(String[] args) {
-        Hashtable<Integer , String> ht = new Hashtable<Integer , String>();
-        ht.put(ht.get(it), "nur");
-        
-        Iterator<Integer> it = new Iterator();
-        while(it.hasNext()){
-        ht.keySet();
-            System.out.println(it.next());
-        }
-        
-    }
+//    public static void main(String[] args) {
+//        Hashtable<Integer , String> ht = new Hashtable<Integer , String>();
+//        ht.put(ht.get(it), "nur");
+//        
+//        Iterator<Integer> it = new Iterator();
+//        while(it.hasNext()){
+//        ht.keySet();
+//            System.out.println(it.next());
+//        }
+//        
+//    }
 }
