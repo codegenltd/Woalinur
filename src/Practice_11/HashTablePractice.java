@@ -13,27 +13,27 @@ import java.util.*;
  * @author HP
  */
 public class HashTablePractice {
-<<<<<<< HEAD
+
 //    public static void main(String[] args) {
 //        Hashtable<Integer , String> ht = new Hashtable<Integer , String>();
 //        ht.put(ht.get(it), "nur");
 //        
 //        Iterator<Integer> it = new Iterator();
-=======
+
     public static void main(String[] args) {
         Hashtable<Integer , String> ht = new Hashtable<Integer , String>();
         ht.put(10, "nur");
 //        
 //        Iterator<Integer> it  = ht.iterator();
->>>>>>> e1629b72655886a6a5f03dfdf735b2c62a7d988d
+
 //        while(it.hasNext()){
 //        ht.keySet();
 //            System.out.println(it.next());
 //        }
 //        
-<<<<<<< HEAD
+
 //    }
-=======
+
     }
->>>>>>> e1629b72655886a6a5f03dfdf735b2c62a7d988d
+
 }

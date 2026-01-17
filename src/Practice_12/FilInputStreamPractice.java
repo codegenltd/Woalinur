@@ -11,6 +11,6 @@ import java.io.FileInputStream;
  */
 public class FilInputStreamPractice {
     public static void main(String[] args) {
-       FileInputStream fl = new FileInputStream("");
+       //FileInputStream fl = new FileInputStream("");
     }
 }
