@@ -11,16 +11,26 @@ package corejavaevidenceoopproblemsolve;
  */
 public class Truck extends Vechicle {
     int weight;
+    
+//
+//    @Override
+//    double getsalePrice() {
+//       if(weight > 2000){
+//           double dis = 0.10;
+//           double nw = regularPrice - (regularPrice * dis);
+//       return nw;
+//       }else{
+//       return regularPrice;
+//       }
+//    }
 
     @Override
     double getsalePrice() {
-       if(weight > 2000){
-           double dis = 0.10;
-           double nw = regularPrice - (regularPrice * dis);
-       return nw;
-       }else{
-       return regularPrice;
-       }
+        if(weight > 2000){
+        return super.regularPrice * 0.10;
+        }else{
+        return super.regularPrice;
+        }
     }
-
 }
+
