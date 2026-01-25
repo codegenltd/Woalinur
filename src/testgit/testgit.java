@@ -13,5 +13,7 @@ public class testgit {
     public static void main(String[] args) {
         System.out.println("test git");
         System.out.println("git test");
+        System.out.println("this is system");
+        System.out.println("ar koto test korbo");
     }
 }
