@@ -405,11 +405,243 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="93hAb0CpUV8Qj89HYdts" name="Page-2">
-    <mxGraphModel dx="688" dy="408" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+  <diagram id="nk4Ligx7jAtVxO_IWe9N" name="Page-2">
+    <mxGraphModel dx="688" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Question no: 3&amp;nbsp;&lt;div&gt;Answer : A Class diagram&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-2" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Community Doctor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-placemendAdmissionId: ind&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-patientid: id&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-admissionCancelNo : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-cancelResion : String&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+patientinformation():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+patientQuery() : String&lt;/p&gt;" vertex="1">
+          <mxGeometry height="160" width="160" x="200" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Hospital Doctor&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Admission: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-patientName: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-treatementid: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-recodeId : int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+patientinformation():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+patientQuery() : String&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="200" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Patient&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-id: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Name: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-address: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-DoB : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+patientinformation():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+patientQuery() : String&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="160" x="520" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="160" />
+              <mxPoint x="440" y="240" />
+            </Array>
+            <mxPoint x="360" y="160" as="sourcePoint" />
+            <mxPoint x="520" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-7" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-4" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="390" />
+            </Array>
+            <mxPoint x="440" y="410" as="sourcePoint" />
+            <mxPoint x="640" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Admission Episode&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-reasion: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-admissionDate: Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+AdmissionQuery() : String&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="480" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-9" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;planned Admission&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-Admissionid: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-patientName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-treatementid: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-recodeId : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientInformation() : String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientQuery() : String&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="280" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Cancled Admission&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-Admissionid: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-patientid : int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-patientName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-cancleReason: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-cancleDate : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientInformation() : String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientinformation(): string&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="150" width="160" x="640" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-11" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Diagnosis&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-Admissionid: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-patientName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-treatementid: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-recodeId : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientInformation() : String&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="120" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-12" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Treatement&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-Admissionid: int&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-patientName: string&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-treatementid: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin: 0px 0px 0px 4px;&quot;&gt;-recodeId : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientInformation() : String&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="160" x="420" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-13" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="230" y="750" />
+            </Array>
+            <mxPoint x="230" y="460" as="sourcePoint" />
+            <mxPoint x="280" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-14" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Surgery&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Admissionid: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-patientName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-treatementid: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-recodeDate : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientInformation() : String&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="240" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Medication&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-Admissionid: int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-patientName: string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-treatementid: int&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-recodeId : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+patientInformation() : String&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="600" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-16" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-2" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.597;entryDx=0;entryDy=0;entryPerimeter=0;" target="HaVh42Ln1z4kIErHFtW3-8" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="160" />
+              <mxPoint x="120" y="410" />
+              <mxPoint x="120" y="560" />
+            </Array>
+            <mxPoint x="120" y="120" as="sourcePoint" />
+            <mxPoint x="120" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-17" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="550" />
+            </Array>
+            <mxPoint x="640" y="550" as="sourcePoint" />
+            <mxPoint x="770" y="677" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-18" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-9" style="endArrow=none;html=1;rounded=0;exitX=0.994;exitY=0.318;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="720" />
+            </Array>
+            <mxPoint x="560" y="760" as="sourcePoint" />
+            <mxPoint x="560" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-19" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-11" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="200" y="850" />
+              <mxPoint x="360" y="850" />
+            </Array>
+            <mxPoint x="160" y="850" as="sourcePoint" />
+            <mxPoint x="360" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-21" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-11" style="endArrow=none;html=1;rounded=0;entryX=0.023;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.616;exitDx=0;exitDy=0;exitPerimeter=0;" target="HaVh42Ln1z4kIErHFtW3-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="280" y="950" as="sourcePoint" />
+            <mxPoint x="330" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-22" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-14" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="1040" />
+              <mxPoint x="500" y="1040" />
+            </Array>
+            <mxPoint x="300" y="1040" as="sourcePoint" />
+            <mxPoint x="500" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-23" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" y="950" />
+            </Array>
+            <mxPoint x="580" y="950" as="sourcePoint" />
+            <mxPoint x="720" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Question no: 3&amp;nbsp;&lt;div&gt;Answer : A use case diagram&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="180" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-25" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Community Doctor" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="1360" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-26" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Hospital Doctor" vertex="1">
+          <mxGeometry height="60" width="30" x="80" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-28" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="310" width="160" x="240" y="1360" as="geometry">
+            <mxRectangle height="40" width="50" x="230" y="1430" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-38" parent="HaVh42Ln1z4kIErHFtW3-28" style="ellipse;whiteSpace=wrap;html=1;" value="admission episod" vertex="1">
+          <mxGeometry height="40" width="130" x="15" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-39" parent="HaVh42Ln1z4kIErHFtW3-28" style="ellipse;whiteSpace=wrap;html=1;" value="planned Admission" vertex="1">
+          <mxGeometry height="40" width="130" x="15" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-40" parent="HaVh42Ln1z4kIErHFtW3-28" style="ellipse;whiteSpace=wrap;html=1;" value="diagnosis" vertex="1">
+          <mxGeometry height="40" width="130" x="15" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-41" parent="HaVh42Ln1z4kIErHFtW3-28" style="ellipse;whiteSpace=wrap;html=1;" value="treatement" vertex="1">
+          <mxGeometry height="40" width="130" x="15" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-42" parent="HaVh42Ln1z4kIErHFtW3-28" style="ellipse;whiteSpace=wrap;html=1;" value="surgery" vertex="1">
+          <mxGeometry height="40" width="130" x="15" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-43" parent="HaVh42Ln1z4kIErHFtW3-28" style="ellipse;whiteSpace=wrap;html=1;" value="Medication" vertex="1">
+          <mxGeometry height="40" width="130" x="15" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-29" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="patient" vertex="1">
+          <mxGeometry height="60" width="30" x="585" y="1450" as="geometry" />
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-44" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-38" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="535" y="1520" as="sourcePoint" />
+            <mxPoint x="585" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-45" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-39" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="535" y="1520" as="sourcePoint" />
+            <mxPoint x="585" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-46" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-40" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="520" y="1540" as="sourcePoint" />
+            <mxPoint x="580" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-47" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-41" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="490" y="1570" as="sourcePoint" />
+            <mxPoint x="580" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-48" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-42" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="1600" as="sourcePoint" />
+            <mxPoint x="580" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-49" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-43" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="510" y="1610" as="sourcePoint" />
+            <mxPoint x="580" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-50" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-25" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" target="HaVh42Ln1z4kIErHFtW3-38" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="160" y="1470" as="sourcePoint" />
+            <mxPoint x="210" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-51" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-39" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="120" y="1380" as="sourcePoint" />
+            <mxPoint x="190" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-52" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-26" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-40" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="130" y="1590" as="sourcePoint" />
+            <mxPoint x="180" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-53" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-26" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-41" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="170" y="1620" as="sourcePoint" />
+            <mxPoint x="220" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-54" edge="1" parent="1" source="HaVh42Ln1z4kIErHFtW3-26" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-42" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="1650" as="sourcePoint" />
+            <mxPoint x="240" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HaVh42Ln1z4kIErHFtW3-55" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="HaVh42Ln1z4kIErHFtW3-43" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="110" y="1580" as="sourcePoint" />
+            <mxPoint x="170" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
