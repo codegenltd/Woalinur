@@ -1,10 +1,10 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.5.2" pages="2">
   <diagram name="Page-1" id="vUU1lpfzTgAbmVqpzHvK">
-    <mxGraphModel dx="4540" dy="2040" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2017" dy="499" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="1">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="lxMU2srTCuq36YHjtR0I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Answer No: B use case diagrame" vertex="1">
+        <mxCell id="lxMU2srTCuq36YHjtR0I-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="Answer No: B use case diagrame" vertex="1">
           <mxGeometry height="30" width="190" as="geometry" />
         </mxCell>
         <mxCell id="lxMU2srTCuq36YHjtR0I-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="technical staff" vertex="1">
@@ -126,10 +126,10 @@
             <mxPoint x="360" y="575" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lxMU2srTCuq36YHjtR0I-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="advertisement campaign management system" vertex="1">
+        <mxCell id="lxMU2srTCuq36YHjtR0I-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="advertisement campaign management system" vertex="1">
           <mxGeometry height="30" width="310" x="190" y="10" as="geometry" />
         </mxCell>
-        <mxCell id="lxMU2srTCuq36YHjtR0I-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Answer no : C Activity Diragram" vertex="1">
+        <mxCell id="lxMU2srTCuq36YHjtR0I-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="Answer no : C Activity Diragram" vertex="1">
           <mxGeometry height="40" width="200" y="520" as="geometry" />
         </mxCell>
         <mxCell id="lxMU2srTCuq36YHjtR0I-34" parent="1" style="ellipse;html=1;shape=startState;fillColor=#080000;strokeColor=#FF0000;" value="" vertex="1">
@@ -303,20 +303,104 @@
             <mxPoint x="99.5" y="1890" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="lxMU2srTCuq36YHjtR0I-79" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0.667;entryDx=0;entryDy=0;entryPerimeter=0;">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="75" y="820" as="sourcePoint" />
-            <mxPoint x="75" y="810.01" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="lxMU2srTCuq36YHjtR0I-80" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" value="" vertex="1">
           <mxGeometry height="30" width="30" x="85" y="1890" as="geometry" />
         </mxCell>
-        <mxCell id="lxMU2srTCuq36YHjtR0I-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="campaign management activity diagram" vertex="1">
+        <mxCell id="lxMU2srTCuq36YHjtR0I-81" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;" value="campaign management activity diagram" vertex="1">
           <mxGeometry height="30" width="300" x="200" y="550" as="geometry" />
         </mxCell>
-        <mxCell id="lxMU2srTCuq36YHjtR0I-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="30" width="260" x="-20" y="1960" as="geometry" />
+        <mxCell id="lxMU2srTCuq36YHjtR0I-82" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#6c8ebf;fillColor=#dae8fc;align=center;verticalAlign=middle;rounded=0;" value="Answer no : A&amp;nbsp; Class Diagram&amp;nbsp;" vertex="1">
+          <mxGeometry height="40" width="280" x="-20" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-3" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;campaign&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- campaign id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title : String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- start date : Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- endDate : Date&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-budget : double&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ proposeCampaign() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ assesscampaign():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+recommendCampaign():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+commission(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+produceAdvertisements(): String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+stopCampaign() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+completeCampaign() : String&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="225" width="190" x="250" y="2035" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-4" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Customer&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- customer id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- companyName : String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- Adress: String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- faxNumber: int&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-contactPersion : string&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="115" width="190" x="-20" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-5" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Employee&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- employee id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name : String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- start date : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ assignToCampaign() : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ namecampaign():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+UpdateRecord():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="540" y="2320" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-6" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="2320" />
+              <mxPoint x="80" y="2140" />
+            </Array>
+            <mxPoint x="80" y="2140" as="sourcePoint" />
+            <mxPoint x="250" y="2140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-7" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="2140" />
+            </Array>
+            <mxPoint x="440" y="2140" as="sourcePoint" />
+            <mxPoint x="640" y="2320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-8" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;technical staff&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- employee id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- name : String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- start date : Date&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ assignToCampaign() : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ namecampaign():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+UpdateRecord():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="190" x="330" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-10" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;AdministrativeStaff&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- qualification:String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-employees atendence: int&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ RecodeCustomerRecode() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ manageStaffRecode():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+UpdateCampaignRecode():String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="140" width="220" x="750" y="2590" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-11" edge="1" parent="1" source="IMFPe6BBQJ_hc6pfsT7v-8" style="endArrow=none;html=1;rounded=0;exitX=0.978;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.009;entryY=0.426;entryDx=0;entryDy=0;entryPerimeter=0;" target="IMFPe6BBQJ_hc6pfsT7v-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="670" y="2690" as="sourcePoint" />
+            <mxPoint x="720" y="2640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-12" edge="1" parent="1" source="IMFPe6BBQJ_hc6pfsT7v-8" style="endArrow=none;html=1;rounded=0;exitX=0.569;exitY=0.027;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="440" y="2385" />
+            </Array>
+            <mxPoint x="440" y="2580" as="sourcePoint" />
+            <mxPoint x="540" y="2385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-13" edge="1" parent="1" source="IMFPe6BBQJ_hc6pfsT7v-5" style="endArrow=none;html=1;rounded=0;entryX=0.591;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="IMFPe6BBQJ_hc6pfsT7v-10" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="880" y="2390" />
+            </Array>
+            <mxPoint x="850" y="2420" as="sourcePoint" />
+            <mxPoint x="920" y="2390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-14" edge="1" parent="1" source="IMFPe6BBQJ_hc6pfsT7v-4" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.143;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.994;exitY=0.183;exitDx=0;exitDy=0;exitPerimeter=0;" target="IMFPe6BBQJ_hc6pfsT7v-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="200" y="2400" as="sourcePoint" />
+            <mxPoint x="250" y="2350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-15" parent="1" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;Advertisement&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- ad id : int&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- title : String&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- targetdate : Date&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;- estimatedCost : double&amp;nbsp;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;-actualCost : double&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+estimateCost(): double&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+bookPlacement() : String&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+completeCampaign() : String&amp;nbsp;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="190" width="190" x="-20" y="2550" as="geometry" />
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-16" edge="1" parent="1" source="IMFPe6BBQJ_hc6pfsT7v-15" style="endArrow=none;html=1;rounded=0;exitX=0.526;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="80" y="2480" />
+              <mxPoint x="360" y="2480" />
+            </Array>
+            <mxPoint x="80" y="2540" as="sourcePoint" />
+            <mxPoint x="360" y="2260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-17" edge="1" parent="1" source="IMFPe6BBQJ_hc6pfsT7v-10" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.548;exitY=1.041;exitDx=0;exitDy=0;exitPerimeter=0;" target="IMFPe6BBQJ_hc6pfsT7v-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="870" y="2800" />
+              <mxPoint x="75" y="2800" />
+            </Array>
+            <mxPoint x="920" y="2800" as="sourcePoint" />
+            <mxPoint x="240" y="2800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IMFPe6BBQJ_hc6pfsT7v-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;rounded=0;strokeWidth=2;perimeterSpacing=4;" value="advertisement campaign management Class diagram" vertex="1">
+          <mxGeometry height="30" width="370" x="270" y="1970" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
